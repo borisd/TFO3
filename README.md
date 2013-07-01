@@ -1,6 +1,6 @@
-== Sample project for TFO (Technology Face Off) Meetup - Angular.JS vs Ember.JS
+## Sample project for TFO (Technology Face Off) Meetup - Angular.JS vs Ember.JS
 
-= Installation
+# Installation
 
 > bundle
 > shotgun
