@@ -5,6 +5,7 @@ Angular.JS vs Ember.JS
 # Installation
 
 > bundle
+> rake db:migrate
 
 # Running
 
