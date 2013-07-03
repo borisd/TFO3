@@ -21,7 +21,7 @@ end
 
 get '/riddles' do
   content_type 'application/json'
-  Riddle.select([:name, :details]).to_json
+  Riddle.select([:name, :details, :id]).to_json
 end
 
 post '/riddle/create' do
