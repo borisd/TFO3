@@ -91,8 +91,12 @@
               <br/>
               Who is better ?
             </p>
+            <a href='#' class="answer-toggle btn btn btn-warning">Show answer</a>
+            <div class='well answer' style='display:none'>
+              Answer
+            </div>
           </div>
-         </div>
+        </div>
 
          <!-- Riddle FORM -->
          <div class="span9" style='display:none'>
@@ -136,6 +140,11 @@
         $.get('/riddles', function(data) {
           console.log(data);
         });
+
+        $('.answer-toggle').click(function() { 
+          $(this).hide();
+          $('.answer').show();
+        })
       });
     </script>
 
